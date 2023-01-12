@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiDessin", "apiDessin\apiDessin.csproj", "{BC41A5DB-8F61-4645-9339-753583C70426}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "apiDessin", "apiDessin\apiDessin.csproj", "{BC41A5DB-8F61-4645-9339-753583C70426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApiDessin", "TestApiDessin\TestApiDessin.csproj", "{99E3DEDF-D0B5-4404-BDF3-61DF9F7A8D23}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BC41A5DB-8F61-4645-9339-753583C70426} = {BC41A5DB-8F61-4645-9339-753583C70426}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{BC41A5DB-8F61-4645-9339-753583C70426}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC41A5DB-8F61-4645-9339-753583C70426}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC41A5DB-8F61-4645-9339-753583C70426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99E3DEDF-D0B5-4404-BDF3-61DF9F7A8D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E3DEDF-D0B5-4404-BDF3-61DF9F7A8D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E3DEDF-D0B5-4404-BDF3-61DF9F7A8D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E3DEDF-D0B5-4404-BDF3-61DF9F7A8D23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
